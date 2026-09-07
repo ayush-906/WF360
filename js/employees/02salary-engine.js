@@ -1,7 +1,7 @@
-function annualySalaryChecker(salary , months ){
+function calculateAnnualSalary(salary , months ){
     return salary*months;
 }
 
-const result = annualySalaryChecker(50000,12);
+const result = calculateAnnualSalary(50000,12);
 
 console.log("Annual Salary :", result);
